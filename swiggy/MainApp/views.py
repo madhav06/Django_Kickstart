@@ -22,14 +22,15 @@ def Reg_Done(request):
     rs = db.cursor()
 
     # # created table name, register and password
-    rs.execute('''create table Register(name varchar(50), email varchar(100), phone varchar(30) passwd varchar(15))''')
-    db.commit()
+    # rs.execute('''create table Register(name varchar(50), email varchar(100), phone varchar(30) passwd varchar(15))''')
+    # db.commit()
 
-    data = []
 
     # Add data in table
     rs.execute(''' insert into Register values('Naga Manoj', '@outlook',  '7873552129', 'Manoj$$Chestuna')''')
     db.commit()
+
+    data = []
 
     rs.execute('select * from Register')
     for i in rs:

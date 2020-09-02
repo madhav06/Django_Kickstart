@@ -14,6 +14,15 @@ def register(request):
 def login(request):
     return render(request, 'MainApp/login.html')
 
+def contact(request):
+    return render(request, 'MainApp/contact.html')
+
+def thank(request):
+    return render(request, 'MainApp/thank.html')
+
+def menu(request):
+    return render(request, 'MainApp/menu.html')
+
 def Reg_Done(request):
 
     # connected to the sqlite3

@@ -1,1 +1,1 @@
-# Django_Kickstart
+## First React Django Basic App

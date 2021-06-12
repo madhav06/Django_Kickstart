@@ -10,7 +10,7 @@ function MyApp({Component, pageProps}) {
               <Link href="/">
                 <a>
                   <div>
-                    <img src="#" alt="brand" />
+                    <img src="/assets/images/pizza.svg" alt="brand" />
                     <p> PizzaBites </p>
                   </div>
                 </a>

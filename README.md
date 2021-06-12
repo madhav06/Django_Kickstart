@@ -20,10 +20,26 @@ check at: localhost:3000
 #### project structure
 
 **pizzabites ---> src ----> pages, styles, components**
+In styles/ add new File MyApp.module.css
 
-In app.js
+In pages/ add new File about.js
 ```js
-import '../styles/global.css'
+import React from 'react'
+
+export default function about() {
+    return (
+        <div>
+          About
+        </div>
+    )
+}
+```
+
+then, In app.js add 
+```js
+import '../styles/global.css';
+import Link from 'next/link';
+import styles from '../styles/MyApp.module.css';
 
 function MyApp({Component, pageProps}) {
     return(
@@ -39,9 +55,12 @@ function MyApp({Component, pageProps}) {
                 </a>
               </Link>
               <Link href="/"><a className={styles.navbarContact}><li> Home</li></a></Link>
-              <Link href="/"><a className={styles.navbarContact}><li> Home</li></a></Link>
+              <Link href="/about"><a className={styles.navbarContact}><li> About</li></a></Link>
             </ul>
           </nav>
+          <div className={styles.container}>
+            <Component {...pageProps} />
+          </div>
         </div>
     )
 }

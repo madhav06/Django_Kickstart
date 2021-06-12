@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #df2c06;
+    background-color: #1a75ff;
     height: 3rem;
     font-weight: 500;
     color: #f0f0f0;
@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #df2c06;
+    background-color: #1a75ff;
     border-radius: 50px;
     margin-right: 16px;
     font-size: 16px;

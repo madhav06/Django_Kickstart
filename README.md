@@ -67,5 +67,122 @@ function MyApp({Component, pageProps}) {
 
 export default MyApp
 ```
+**src/ --> styles/ -->MyApp.module.css** 
+Add following lines
 
+```css
+.navbar {
+    margin-top: 2rem;
+
+}
+.navbarContactBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #df2c06;
+    height: 3rem;
+    font-weight: 500;
+    color: #f0f0f0;
+
+}
+.navbarContact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.brandPizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #df2c06;
+    border-radius: 50px;
+    margin-right: 16px;
+    font-size: 16px;
+    padding: 5px;
+}
+.brandPizza img {
+    padding-top: 10px;
+    height: 42px;
+    width: 42px;
+}
+
+@media only screen and (max-width: 600px) {
+    .brandPizza {
+        font-size: 12px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .brandPizza img {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+```
+
+**google fonts --> poppins -->**
+add In src/ --> styles --> globals.css
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+```
+
+**flaticon website --> download pizza svg image. rename it pizza.svg**
+
+**public/ --> assets/ --> images --> pizza.svg**
+**public/ --> assets/ --> pizza.png 16px, rename it to fevicon.ico**
+then edit in app.js
+```js
+<div>
+    <img src="/assets/images/pizza.svg" alt="brand" />
+    <p> PizzaBites </p>
+</div>
+
+```
+**src/ --> components --> About/ --> About.js, About.module.css**
+
+**components/ --> Layout/ -->Layout.js, Layout.module.css** 
+
+__Layout.js__
+```js
+import React from 'react';
+import Head from 'next/head';
+import styles from './Layout.module.css';
+
+export default function Layout({children}) {
+    return (
+        <div className={styles.container}>
+            <Head>
+                <title>Pizza Bites...</title>
+                <link rel="icon" href="/fevicon.ico" />
+            </Head>
+
+            <main className={styles.main}>{children}</main>
+
+            <footer className={styles.footer}>Made by Madhav Nandan</footer>
+            
+        </div>
+    )
+}
+
+```
+
+__Layout.module.css__
+```css
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+}
+```
 

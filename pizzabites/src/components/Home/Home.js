@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import styles from './Home.module.css';
-import Link from 'next/link';
+import React from 'react'
+import styles from './Home.module.css'
+import Link from 'next/link'
+import { useState } from 'react'
 
 export default function Home() {
 
@@ -28,7 +29,7 @@ export default function Home() {
         {
             id: '3',
             name: 'Veg Extravaganza',
-            description: 'Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno and extra cheese',
+            description: 'Onion, grilled mushroom, corn, tomato, jalapeno and extra cheese',
             slug: 'veg-extravaganza',
             toppings: ['Onions', 'Pepperoni', 'Extra cheese', 'Sausage', 'Mushrooms', 'Black olives'],
             image: 'https://images.dominos.co.in/new_veg_extravaganza.jpg',
@@ -37,7 +38,7 @@ export default function Home() {
         {
             id: '4',
             name: 'Cheese n Corn',
-            description: 'Sweet and Juicy Golden corn and 100% real mozzarella cheese in a delectable combination',
+            description: 'Sweet and Juicy Golden corn and 100% real mozzarella cheese',
             slug: 'cheese-n-corn',
             toppings: ['Onions', 'Pepperoni', 'Extra cheese', 'Sausage', 'Mushrooms', 'Black olives'],
             image: 'https://images.dominos.co.in/new_cheese_n_corn.jpg',
@@ -125,6 +126,7 @@ export default function Home() {
                                 <div className={styles.pizzaText}>
                                     <p className={styles.pizzaHeader}>{pizza.name}</p>
                                     <p className={styles.pizzaToppings}>{pizza.toppings.map(topping => topping).join(', ')}</p>
+                                    <p className={styles.pizzaDescription}>{pizza.description}</p>
                                     <p className={styles.pizzaPrice}> ₹ {pizza.price}</p>
                                 </div>
                             </div>

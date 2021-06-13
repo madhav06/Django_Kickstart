@@ -54,7 +54,7 @@
   
   .pizzaImage:hover {
     transform: scale(1.1);
-    transition: transform 3s ease-out;
+    transition: transform 5s ease-out;
   }
   
   .pizzaText {
@@ -73,6 +73,12 @@
     font-size: 16px;
   }
   
+  .pizzaDescription {
+    text-transform: capitalize;
+    color: #f0f0f0;
+    font-size: 16px;
+  }
+
   .pizzaPrice {
     font-style: italic;
     color: #f0f0f0;

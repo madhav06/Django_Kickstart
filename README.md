@@ -191,11 +191,11 @@ add In src/ --> components/ --> Home/ --> Home.js, Home.module.css
 
 __Home.js__
 
-[Home Page](https://github.com/ben-hill33/my_pizza_website_front/blob/master/src/components/Home/Home.js)
+[Home Page](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites/src/components/Home/Home.js)
 
 __Home.module.css__
 
-[Home Page Styling](https://github.com/ben-hill33/my_pizza_website_front/blob/master/src/components/Home/Home.module.css)
+[Home Page Styling](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites/src/components/Home/Home.module.css)
   
     
   

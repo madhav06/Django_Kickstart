@@ -215,11 +215,16 @@ pip --version
 
 pip install django
 
-pip install djangorestframework psycopg2 
+brew install postgresql
+
+pip install djangorestframework psycopg2-binary
 
 pip freeze
-```
 
+django-admin startproject pizzabites_backend<project name>
+
+```
+**This repo is updated from time to time.**
 
 
     

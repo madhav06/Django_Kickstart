@@ -204,7 +204,8 @@ Check out our __Next.js__ deployment __documentation__ for more details.
 
 #### Backend
 
-```python3
+**Install Dependancies**
+```js
 
 virtualenv env
 
@@ -213,6 +214,10 @@ source env/bin/activate
 pip --version
 
 pip install django
+
+pip install djangorestframework psycopg2 
+
+pip freeze
 ```
 
 

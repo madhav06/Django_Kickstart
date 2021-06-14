@@ -1,6 +1,6 @@
 ## First React Django Basic App
 
-#### initial setup
+#### initial setup frontend
 ```
 git clone react-django-kickstarter-app
 
@@ -197,6 +197,26 @@ __Home.module.css__
 
 [Home Page Styling](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites/src/components/Home/Home.module.css)
   
+**Deployment**
+The easiest way to deploy your Next.js app is to use the __Vercel Platform__ from the creators of __Next.js.__
+
+Check out our __Next.js__ deployment __documentation__ for more details.
+
+#### Backend
+
+```python3
+
+virtualenv env
+
+source env/bin/activate
+
+pip --version
+
+pip install django
+```
+
+
+
     
   
 

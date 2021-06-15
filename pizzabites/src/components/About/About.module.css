@@ -4,3 +4,23 @@
     align-items: center;
     height: 81vh;
 }
+
+.aboutHeader {
+    
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a75ff;
+}
+
+.aboutText {
+    font-weight: 500;
+    font-size: 15px;
+    color: #1a75ff;
+}
+
+  .paraText {
+      font-weight: 12px;
+      color: #1a75ff;
+      font-weight: 400;
+      font-style: italic;
+}

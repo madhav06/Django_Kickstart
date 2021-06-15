@@ -18,6 +18,20 @@
     grid-template-columns: 1fr 1fr;
 
 }
+
+.navbarTitle {
+    display: flex;
+    padding-top: 2px;
+    margin-bottom: 40px;
+    font-size: x-large;
+    width: 90px;
+    height: 40px;
+    font-weight: 700;
+    color: brown;
+
+
+}
+
 .brandPizza {
     display: flex;
     flex-direction: column;

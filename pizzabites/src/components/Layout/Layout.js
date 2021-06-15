@@ -12,7 +12,7 @@ export default function Layout({children}) {
 
             <main className={styles.main}>{children}</main>
 
-            <footer className={styles.footer}>Made by Madhav Nandan</footer>
+            <footer className={styles.footer}></footer>
             
         </div>
     )

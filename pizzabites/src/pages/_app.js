@@ -11,7 +11,7 @@ function MyApp({Component, pageProps}) {
                 <a>
                   <div>
                     <img src="/assets/images/pizza.svg" alt="brand" />
-                    <p> PizzaBites </p>
+                    <p className={styles.navbarTitle}> PizzaBites </p>
                   </div>
                 </a>
               </Link>

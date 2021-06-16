@@ -1,5 +1,8 @@
 ## First React Django Basic App
 
+The UI will look like this:
+![Frontend](https://github.com/madhav06/projectImages/blob/master/frontendpizzaapp1.png)
+
 #### initial setup frontend
 ```
 git clone react-django-kickstarter-app

@@ -3,8 +3,11 @@
 The UI, Frontend is in **NextJS**:
 ![Frontend](https://github.com/madhav06/projectImages/blob/master/frontendpizzaapp1.png)
 
-The Backend is in **Django** and **DjangoRESTFRAMEWORK**:
-![Frontend](https://github.com/madhav06/projectImages/blob/master/backendpizzaapp.png)
+The Backend is in **Django**:
+![Backend](https://github.com/madhav06/projectImages/blob/master/backendpizzaapp.png)
+
+and **DjangoRESTFRAMEWORK**:
+![RestFramework](https://github.com/madhav06/projectImages/blob/master/restframepizzaapp.png)
 
 #### initial setup frontend
 ```

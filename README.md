@@ -1,7 +1,10 @@
 ## First React Django Basic App
 
-The UI will look like this:
+The UI, Frontend is in **NextJS**:
 ![Frontend](https://github.com/madhav06/projectImages/blob/master/frontendpizzaapp1.png)
+
+The Backend is in **Django** and **DjangoRESTFRAMEWORK**:
+![Frontend](https://github.com/madhav06/projectImages/blob/master/backendpizzaapp.png)
 
 #### initial setup frontend
 ```

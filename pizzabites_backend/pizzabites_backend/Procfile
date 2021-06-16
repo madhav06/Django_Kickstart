@@ -1,0 +1,1 @@
+web: gunicorn pizzabites_backend.wsgi

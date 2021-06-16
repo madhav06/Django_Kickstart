@@ -226,6 +226,25 @@ django-admin startproject pizzabites_backend<project name>
 ```
 **This repo is updated from time to time.**
 
+#### Databases
+
+__Download PgAdmin, Postgres__
+
+**Create Database: Server --> Postgres --> Create db --> pizza_db**
+
+**Create a seprate .env file to make credentials secure, put config there**
+
+#### Create Models
+[Edit Models code like this ](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites_backend/pizza/models.py)
+
+[Edit Admin code like this](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites_backend/pizza/admin.py)
+
+**Create superuser**
+[Confidentials]()
+
+
+
+
 
     
   

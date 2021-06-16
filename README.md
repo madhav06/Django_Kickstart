@@ -249,7 +249,7 @@ __Download PgAdmin, Postgres__
 [Edit Admin code like this](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites_backend/pizza/admin.py)
 
 **Create superuser**
-[Confidentials]()
+[Confidentials](https://github.com/madhav06/react_django_kickstarter_app/blob/master/pizzabites_backend/pizzabites_backend/credentials.py)
 
 
 
